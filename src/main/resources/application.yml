@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: stc-security
+datasource:
+  mysql:
+    url: jdbc:mysql://192.168.2.109:3306/security?autoReconect=true
+    username: jjgonzalez
+    password: Desarrollo.2022
+    driverClassName: com.mysql.cj.jdbc.Driver
+    jpa:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      showSql: true
